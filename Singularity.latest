@@ -1,0 +1,3 @@
+Bootstrap: docker
+From: nucldyn:galaxy0.4
+Namespace: mmbirb
