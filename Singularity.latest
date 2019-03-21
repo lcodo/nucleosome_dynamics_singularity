@@ -1,3 +1,3 @@
 Bootstrap: docker
-From: nucldyn:galaxy0.4
+From: nucldyn:latest
 Namespace: mmbirb
