@@ -1,3 +1,6 @@
 Bootstrap: docker
 From: nucleosome-dynamics:latest
 Namespace: mmbirb
+%labels
+Version 0.2.3
+Author Barcelona Supercomputing Center
