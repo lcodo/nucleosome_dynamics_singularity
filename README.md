@@ -64,7 +64,7 @@ Each analysis has its own input files and arguments. `singularity run nucleosome
 
 #### Example
 
-Here is an example on how to load a MNase-seq reads file using `readBAM`. It takes as input a BAM file and convert it into an RData file ready to be feed to other analyses ('nucleR', 'NFR', etc.).
+Here is an example on how to load a MNase-seq reads file using `readBAM`. It takes as input a BAM file and convert it into an RData file ready to be feed to other analyses ('nucleR', 'NFR', etc.)
 
 ```sh
 singularity run --bind $PWD/test/data/:$PWD/test/data nucleosome_dynamics_singularity_latest.sif readBAM --input $PWD/test/data/cellcycleG2_chrII.bam --output $PWD/test/data/cellcycleG2_chrII.RData --type paired
